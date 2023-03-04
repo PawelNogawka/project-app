@@ -1,5 +1,5 @@
 <p>
-Project management application, where users can register, add projects, tag people associated with projects, and choose categories.
+Project management application, where users can register, add projects, tag people associated with projects, add comments and choose categories.
 </p>
 
 <p>I used Firebase for this project.</p>

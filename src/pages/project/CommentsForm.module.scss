@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.comments {
+  margin-top: 3rem;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    button {
+      align-self: start;
+    }
+  }
+}

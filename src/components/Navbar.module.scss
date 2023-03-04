@@ -1,0 +1,44 @@
+@import "../variables";
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 8rem;
+  box-shadow: $header-shadow;
+  background-color: #fff;
+  .nav {
+    .logo {
+      font-size: min(8vw, 2.8rem);
+      font-weight: 500;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: capitalize;
+
+      button {
+        margin-left: 4rem;
+      }
+
+      a {
+        color: $dark-text;
+        padding: 0.6rem;
+        letter-spacing: 0.02rem;
+      }
+    }
+
+    .menu {
+      display: flex;
+      gap: 0.7rem;
+      align-items: center;
+    }
+  }
+}

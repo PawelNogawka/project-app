@@ -1,0 +1,46 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding: 7rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-heading {
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: $dark-text;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  font-size: min(9vw, 3.7rem);
+}
+
+.section {
+  margin-top: 11rem;
+}
+
+@media (min-width: 768px) {
+  .page-heading {
+    margin-bottom: 4rem;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../../variables";
+
+.button {
+  padding: .8rem 1.6rem;
+  border-radius: .5rem;
+  background-color: $main;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.06rem;
+  transition: all .3s ease;
+  cursor: pointer;
+  border: 0;
+  line-height: 160%;
+
+  &:hover{
+    background-color: #fff;
+    color:$main;
+    box-shadow: 0 0 0 0.1rem $main;
+  }
+
+  &--shadow {
+    box-shadow: $btn-shadow;
+  }
+  &--small {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  &--outlined {
+    background-color: #fff;
+    border: 0.1rem solid $main;
+    color: $main;
+
+    &:hover{
+      color:#fff;
+      background-color: $main;
+      
+    }
+  }
+}

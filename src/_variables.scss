@@ -1,0 +1,23 @@
+$dark-text: #564741;
+$light-text: #958b8a;
+$main: #f59946;
+$secondary: #ffbb34;
+$error: #f4695f;
+$success: #42ba96;
+$gray: #e8e8e8;
+
+//gradinet
+
+$main-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.7) 0%,
+  rgba(0, 0, 0, 0.4) 100%
+);
+
+// shadows
+
+$btn-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+$big-shadow: 0 2.5rem 5rem -1.2rem rgba(0, 0, 0, 0.25);
+$medium-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$header-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);

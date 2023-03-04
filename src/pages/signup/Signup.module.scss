@@ -1,0 +1,33 @@
+@import "../../variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  width: 100%;
+  max-width: 80rem;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  box-shadow: $big-shadow;
+  background-color: #fff;
+  border-radius: 0.5rem;
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .error {
+    color: $error;
+  }
+}
+
+@media (min-width: 500px) {
+  .form {
+    .btns {
+      flex-direction: row;
+    }
+  }
+}

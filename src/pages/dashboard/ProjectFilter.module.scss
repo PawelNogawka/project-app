@@ -1,0 +1,43 @@
+@import "../../variables";
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+
+  h3 {
+    font-size: 1.5rem;
+    color: $dark-text;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .btns {
+    display: flex;
+    overflow: auto;
+    gap: 0.4rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .btn {
+      padding: 0.4rem;
+      border-radius: 0.5rem;
+      color: $dark-text;
+      background: $gray;
+      border: 0;
+      cursor: pointer;
+      text-transform: capitalize;
+      transition: all 0.3s;
+    }
+
+    .active {
+      background-color: $main;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../variables";
+
+.comments {
+  margin-top: 5rem;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    li {
+      border: 0.1rem solid $main;
+      padding: 3rem 2rem;
+      box-shadow: $medium-shadow;
+    }
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: $dark-text;
+    font-weight: 500;
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+
+    .name {
+      text-transform: capitalize;
+      color: $dark-text;
+    }
+  }
+
+  .created {
+    margin-top: 0.6rem;
+    color: $light-text;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+
+  .content {
+    margin-top: 2rem;
+    color: $dark-text;
+  }
+}
